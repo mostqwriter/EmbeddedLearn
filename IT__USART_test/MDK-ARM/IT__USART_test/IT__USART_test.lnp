@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp.sp
+"it__usart_test\startup_stm32f407xx.o"
+"it__usart_test\main.o"
+"it__usart_test\stm32f4xx_it.o"
+"it__usart_test\stm32f4xx_hal_msp.o"
+"it__usart_test\stm32f4xx_hal_uart.o"
+"it__usart_test\stm32f4xx_hal_rcc.o"
+"it__usart_test\stm32f4xx_hal_rcc_ex.o"
+"it__usart_test\stm32f4xx_hal_flash.o"
+"it__usart_test\stm32f4xx_hal_flash_ex.o"
+"it__usart_test\stm32f4xx_hal_flash_ramfunc.o"
+"it__usart_test\stm32f4xx_hal_gpio.o"
+"it__usart_test\stm32f4xx_hal_dma_ex.o"
+"it__usart_test\stm32f4xx_hal_dma.o"
+"it__usart_test\stm32f4xx_hal_pwr.o"
+"it__usart_test\stm32f4xx_hal_pwr_ex.o"
+"it__usart_test\stm32f4xx_hal_cortex.o"
+"it__usart_test\stm32f4xx_hal.o"
+"it__usart_test\stm32f4xx_hal_exti.o"
+"it__usart_test\system_stm32f4xx.o"
+"it__usart_test\bsp_led.o"
+"it__usart_test\bsp_usart_redir.o"
+--library_type=microlib --strict --scatter "IT__USART_test\IT__USART_test.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "IT__USART_test.map" -o IT__USART_test\IT__USART_test.axf
