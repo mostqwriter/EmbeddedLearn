@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"dma_at24c02_test\startup_stm32f407xx.o"
+"dma_at24c02_test\main.o"
+"dma_at24c02_test\stm32f4xx_it.o"
+"dma_at24c02_test\stm32f4xx_hal_msp.o"
+"dma_at24c02_test\stm32f4xx_hal_i2c.o"
+"dma_at24c02_test\stm32f4xx_hal_i2c_ex.o"
+"dma_at24c02_test\stm32f4xx_hal_rcc.o"
+"dma_at24c02_test\stm32f4xx_hal_rcc_ex.o"
+"dma_at24c02_test\stm32f4xx_hal_flash.o"
+"dma_at24c02_test\stm32f4xx_hal_flash_ex.o"
+"dma_at24c02_test\stm32f4xx_hal_flash_ramfunc.o"
+"dma_at24c02_test\stm32f4xx_hal_gpio.o"
+"dma_at24c02_test\stm32f4xx_hal_dma_ex.o"
+"dma_at24c02_test\stm32f4xx_hal_dma.o"
+"dma_at24c02_test\stm32f4xx_hal_pwr.o"
+"dma_at24c02_test\stm32f4xx_hal_pwr_ex.o"
+"dma_at24c02_test\stm32f4xx_hal_cortex.o"
+"dma_at24c02_test\stm32f4xx_hal.o"
+"dma_at24c02_test\stm32f4xx_hal_exti.o"
+"dma_at24c02_test\stm32f4xx_hal_uart.o"
+"dma_at24c02_test\system_stm32f4xx.o"
+"dma_at24c02_test\bsp_at24c02_dma.o"
+"dma_at24c02_test\bsp_usart_redir.o"
+--library_type=microlib --strict --scatter "DMA_At24c02_Test\DMA_At24c02_Test.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "DMA_At24c02_Test.map" -o DMA_At24c02_Test\DMA_At24c02_Test.axf
